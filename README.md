@@ -316,19 +316,19 @@ We made several key architectural choices that shaped the CPU:
 *Add screenshots of your Logisim design here to showcase the implementation*
 
 ### Main Datapath
-![Main Datapath](screenshots/main-datapath.png)
+![Main Datapath](main-datapath.png)
 *The complete CPU showing all components: Program ROM, IR, Control Unit, Register File, ALU, Data RAM, and Write-Back MUX connected together*
 
 ### Register File Sub-circuit
-![Register File](screenshots/register-file.png)
+![Register File](register-file.png)
 *The 4 registers (R0-R3) with write decoder, AND gates for write enable, and read MUX*
 
 ### ALU Sub-circuit
-![ALU](screenshots/alu.png)
+![ALU](alu.png)
 *Adder, subtractor, output MUX, and zero flag circuit (8-input NOR gate)*
 
 ### Control Unit Sub-circuit
-![Control Unit](screenshots/control-unit.png)
+![Control Unit](control-unit.png)
 *Microcode ROM with opcode input and 8 control signal outputs*
 
 
